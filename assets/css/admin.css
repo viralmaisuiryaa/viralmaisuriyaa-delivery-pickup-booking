@@ -1,0 +1,10 @@
+.fdps-admin { max-width: 1080px; }
+.fdps-admin .fdps-intro { font-size: 15px; color: #50575e; margin-bottom: 24px; }
+.fdps-admin .fdps-card { background: #fff; border: 1px solid #c3c4c7; border-radius: 8px; padding: 24px; margin: 20px 0; }
+.fdps-admin .fdps-card h2 { font-size: 18px; margin: 0 0 12px; }
+.fdps-admin .form-table th { width: 225px; }
+.fdps-admin .form-table td { padding-block: 16px; }
+.fdps-admin textarea { max-width: 600px; border-radius: 4px; }
+.fdps-admin .fdps-day { display: inline-flex; align-items: center; gap: 6px; margin: 0 12px 12px 0; padding: 8px 12px; background: #f6f7f7; border: 1px solid #dcdcde; border-radius: 4px; }
+.fdps-admin input:focus-visible, .fdps-admin select:focus-visible, .fdps-admin textarea:focus-visible { outline: 2px solid #2271b1; outline-offset: 3px; }
+@media (max-width: 782px) { .fdps-admin .fdps-card { padding: 16px; } .fdps-admin .form-table th { width: auto; } .fdps-admin .fdps-day { margin-inline-end: 6px; } }
